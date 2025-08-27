@@ -1,1 +1,48 @@
-config
+# === Python Cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Virtual Environment ===
+env/
+venv/
+ENV/
+.venv/
+
+# === Logs ===
+*.log
+logs/
+
+# === Environment Files ===
+.env
+*.env
+
+# === Config and Secrets ===
+config.py
+credentials.json
+token.txt
+session*.session
+*.session-journal
+
+# === Data and Files ===
+data/
+uploads/
+downloads/
+*.pdf
+
+# === Editor Config ===
+.idea/
+.vscode/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints/
+
+# === Build/Distribution ===
+build/
+dist/
+*.egg-info/
